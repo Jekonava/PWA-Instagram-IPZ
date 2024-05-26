@@ -60,8 +60,7 @@ Resut of working with this project it's
 Linking the manifest file informs the browser about the existence of the PWA and how to properly handle it.
 
 
-
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 **2.Analyze the characteristics of the event**
