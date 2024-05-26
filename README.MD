@@ -1,5 +1,5 @@
 Resut of working with this project it's 
-1.Analyze all properties and their purpose in the manifest file:
+**1.Analyze all properties and their purpose in the manifest file:**
 1. **name**: 
    - **Value**: "Instagram sa Pwa for students ZIEIT"
    - **Purpose**: The full name of your application. This name is displayed when the PWA is installed on a device and in other user interfaces, such as the app manager.
@@ -59,7 +59,11 @@ Resut of working with this project it's
 Linking the manifest file informs the browser about the existence of the PWA and how to properly handle it.
 
 
-2.Analyze the characteristics of the event
+
+
+
+
+**2.Analyze the characteristics of the event**
 
 This code sets up the core events for a service worker: `install`, `activate`, and `fetch`. Let's break down each event and its characteristics:
 
