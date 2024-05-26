@@ -135,7 +135,26 @@ self.addEventListener("fetch", event => {
 
 These events form the foundation for caching and managing network requests in a PWA, enhancing the performance and reliability of the application.
 /////////////////////////////////////////////////////////////////////////////////////////////////
-**Explore the CacheStorage interface
-(https://developer.mozilla.org/ru/docs/Web/API/CacheStorage) and Cache (https://developer.mozilla.org/ua/docs/Web/API/Cache).**
 
+
+**Explore the CacheStorage interface (https://developer.mozilla.org/ru/docs/Web/API/CacheStorage) and Cache (https://developer.mozilla.org/ua/docs/Web/API/Cache).**
+
+#### CacheStorage
+**CacheStorage** is a global object that provides access to the cache storage within the context of service workers. It allows creating, opening, and deleting caches, which can store requests and responses, thus helping to improve the performance of web applications.
+
+Key methods:
+- **`open(cacheName)`**: Creates or opens a cache with the specified name.
+- **`delete(cacheName)`**: Deletes a cache with the specified name.
+- **`keys()`**: Returns a list of all caches.
+- **`match(request)`**: Searches for a request across all caches and returns the matching response.
+
+#### Cache
+**Cache** is an object representing a single cache. It provides methods for adding, retrieving, and deleting requests and responses from that cache.
+
+Key methods:
+- **`add(request)`**: Adds a request and its corresponding response to the cache.
+- **`addAll(requests)`**: Adds multiple requests and their responses to the cache.
+- **`put(request, response)`**: Explicitly stores the response for a given request.
+- **`match(request)`**: Searches for a request in the cache and returns the matching response.
+- **`delete(request)`**: Removes a request and its response from the cache.
 
