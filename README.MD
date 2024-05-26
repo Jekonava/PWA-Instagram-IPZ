@@ -134,3 +134,8 @@ self.addEventListener("fetch", event => {
 - **`fetch`**: Provides caching functionality by intercepting requests and serving them from the cache if available.
 
 These events form the foundation for caching and managing network requests in a PWA, enhancing the performance and reliability of the application.
+/////////////////////////////////////////////////////////////////////////////////////////////////
+**Explore the CacheStorage interface
+(https://developer.mozilla.org/ru/docs/Web/API/CacheStorage) and Cache (https://developer.mozilla.org/ua/docs/Web/API/Cache).**
+
+
